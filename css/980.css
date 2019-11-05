@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Helvetica W01 Roman';
+	font-style: normal;
+	font-weight: 300;
+	font-size:100%;
+	padding:0;
+	background-color:#f0f0f0;
+}
+ul{
+	margin:0;
+}
+li{
+	list-style-type:none;
+}
+h4,
+h3{
+	color:#868686;
+	margin:0;
+}
+.container-fluid{
+	padding:0;
+}
+.logo{
+	background:url(../img/collega_logo.jpg) no-repeat;
+	width:262px;
+	height:65px;
+	max-width:262px;
+	margin-left:40px;
+	float:left;
+	width:100%;
+}
+/*.mission{
+	width:538px;
+	margin-left:590px;
+	padding-top:30px;
+}*/
+.top-header{
+	background-color:white;
+}
+.header-right{
+	font-size:1.1em;
+	color:#959595;
+	line-height:1.24;
+	text-align:left;
+	max-width:371px;
+	min-width:371px;
+}
+.mission{
+	float:right;
+	padding:30px 0;
+}
+.navbar{
+	position:fixed;
+	top:0;
+}
+.navbar-inner{
+	background:url(../img/navbg.png) repeat left bottom rgba(0,0,0,0.8);
+	height:30px;
+	border-color:#000;
+	color:#cacaca;
+	z-index:10;
+	clear:both;
+	min-height:30px;
+	border-radius:0px;
+	position:relative;
+	top:-7px;
+}
+.navbar-inner .header{
+	float:left;
+	margin-right:46px;
+	margin-top:5px;
+}
+.navbar .section{
+	list-style-type:none;
+	height:29px;
+	float:right;
+}
+.navbar h5{
+	margin:0;
+}
+.navbar .secondary{
+	display:none;
+	z-index:12;
+	height:80px;
+	padding:10px 0;
+	font-size:12px;
+	color:#999;
+}
+.navbar .secondary li a:focus,
+.navbar .secondary li a:hover{
+	text-decoration:normal;
+	color:#fff;
+}
+.navbar .secondary li:hover{
+	color:#fff;	
+}
+.navbar .secondary li a{
+	color:#999;
+	margin:0;
+	}
+.slide-section{
+	position:relative;
+	top:143px;
+	width:100%;
+}
+#slideshow{
+    clear:both;
+	z-index:-5;
+	width:100%;
+}
+#slideshow img{
+	width:100%;
+	height:auto;
+}
+#slideshow div{
+	width:100%;
+	height:auto;
+	padding-top:41%;
+	display:block;
+}
+#navSlide{
+	display:table;
+	z-index:-2;
+	width:80px;
+	margin:0 auto;
+	top:460px;
+	position:relative;
+}
+#navSlide a{
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 12px;
+  background:url(../img/slideshow_button.png) no-repeat rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+#navSlide .activeSlide{
+  /*background-color: #fff;*/
+  background:url(../img/slideshow_button_active.png) no-repeat;
+  width:11px;
+  height:10px;
+  display:inline-block;
+}
+#expanded{
+	height:80px;
+	display:none;
+	background:url(../img/navbg.png) repeat left bottom rgba(0,0,0,0.8);
+    z-index: -2;
+	position:absolute;
+	top:143px;
+	margin:0;
+	border-top:1px solid #6c6a6a;
+	border-bottom:1px solid #6c6a6a;
+	width:100%;
+}
+#employee{
+	position:relative;
+	bottom:-480px;
+}
+#employee h4{
+	font-size:23pt;
+	font-weight:normal;
+	position:relative;
+	left:483px;
+}
+.client-content{
+	position:relative;
+	top:-340px;
+	display:block;
+}
+.client{
+	background:#ebebeb;
+	bottom:-481px;
+	z-index:-50;
+	margin-top:25px;
+}
+.client h5{
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#000;
+}
+.client h3{
+	color:#ed1c24;
+	font-size:24px;
+}
+.client p{
+	color:#868686;
+	font-size:1.3em;
+	line-height:1.4;
+}
+.client .explore{
+	display:none;
+	background-color:#EBEBEB;
+	margin:5px 0 0 28px;
+}
+.client .content ul{
+	margin-left:0;
+}
+.client ul#pager{
+	display:inline-block;
+}
+.client  ul#pager li{
+	float:left;
+	margin:0 8px 0 10px;
+}
+.client ul#pager li img{
+	width:136px;
+	height:87px;
+}
+#employee .client .content h4{
+	font-size:12px;
+	color:#363636;
+	font-weight:bold;
+	margin-top:15px;
+	position:static;
+}
+.client .content p{
+	margin-bottom:10px;
+	font-size:12px;
+	color:#636363;
+}
+.client .view-project{
+	margin-top:40px;
+	padding-top:15px;
+	border-top:1px solid #a3a3a3;
+}
+.client .view-project a{
+	color:#00aeef;
+	font-size:12px;
+}
+.client .open{
+	background:url(../img/arrow.png) no-repeat;
+	width:13px;
+	height:13px;
+	display:block;
+	clear:both;
+	left:33px;
+	position:relative;
+}
+.client .row{
+	margin-left:86px;
+}
+.client .content{
+	margin-left:0;
+}
+.client .content 
+.client .visual{
+	margin: 0 0 10px 0;
+	background-color:#EBEBEB;
+}
+.client .visual{
+	margin:0 0 0 18px;
+}
+.client .explore .close{
+	background:url(../img/close.png) no-repeat;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	opacity:1;
+	right:93px;
+	position:relative;
+}
+.client-gallery{
+	margin-left:35px;
+	margin-bottom:25px;
